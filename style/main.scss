@@ -86,14 +86,9 @@ a {
 //HERO SECTION
 
 .header {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	color: #fff;
-
 	&_tittle {
 		font-family: "Roboto", sans-serif;
+		color: #fff;
 		font-size: 48px;
 		font-weight: bold;
 		line-height: 70px;
@@ -104,31 +99,44 @@ a {
 
 	&_desc {
 		text-align: center;
+		color: #fff;
 		text-transform: capitalize;
-		margin-bottom: 36px;
+		margin-bottom: 40px;
 		font-family: "Roboto", sans-serif;
 	}
-	&_btn_wrapper {
+	&_btn {
 		display: flex;
 		align-items: center;
-		gap: 30px;
+		justify-content: center;
+		gap: 20px;
 
-		.btn_header_white {
-			padding: 16px 87px;
+		.btn_white {
+			padding: 16px 80px;
 			color: #0d1337;
 		}
-		.btn_header_white:hover {
+		.btn_white:hover {
 			background-color: rgba(255, 255, 255, 0.65);
 		}
-		.btn_header_outline {
-			padding: 16px 102px;
+		.btn_outline {
+			padding: 16px 80px;
 			background-color: transparent;
-			border: 2px solid #fff;
+			border: 1px solid #fff;
 			color: #fff;
 		}
-		.btn_header_outline:hover {
+		.btn_outline:hover {
 			background-color: rgba(255, 255, 255, 0.8);
 			color: #0d1337;
+		}
+	}
+	@media screen and (max-width: 600px) {
+		&_tittle {
+			font-size: 32px;
+		}
+		&_btn {
+			.btn_white,
+			.btn_outline {
+				padding: 16px 50px;
+			}
 		}
 	}
 }

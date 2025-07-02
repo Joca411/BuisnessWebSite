@@ -76,15 +76,9 @@ a {
   }
 }
 
-.header {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-}
 .header_tittle {
   font-family: "Roboto", sans-serif;
+  color: #fff;
   font-size: 48px;
   font-weight: bold;
   line-height: 70px;
@@ -94,29 +88,40 @@ a {
 }
 .header_desc {
   text-align: center;
+  color: #fff;
   text-transform: capitalize;
-  margin-bottom: 36px;
+  margin-bottom: 40px;
   font-family: "Roboto", sans-serif;
 }
-.header_btn_wrapper {
+.header_btn {
   display: flex;
   align-items: center;
-  gap: 30px;
+  justify-content: center;
+  gap: 20px;
 }
-.header_btn_wrapper .btn_header_white {
-  padding: 16px 87px;
+.header_btn .btn_white {
+  padding: 16px 80px;
   color: #0d1337;
 }
-.header_btn_wrapper .btn_header_white:hover {
+.header_btn .btn_white:hover {
   background-color: rgba(255, 255, 255, 0.65);
 }
-.header_btn_wrapper .btn_header_outline {
-  padding: 16px 102px;
+.header_btn .btn_outline {
+  padding: 16px 80px;
   background-color: transparent;
-  border: 2px solid #fff;
+  border: 1px solid #fff;
   color: #fff;
 }
-.header_btn_wrapper .btn_header_outline:hover {
+.header_btn .btn_outline:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: #0d1337;
+}
+@media screen and (max-width: 600px) {
+  .header_tittle {
+    font-size: 32px;
+  }
+  .header_btn .btn_white,
+  .header_btn .btn_outline {
+    padding: 16px 50px;
+  }
 }/*# sourceMappingURL=main.css.map */
