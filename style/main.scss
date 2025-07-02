@@ -1,0 +1,134 @@
+// GLOBAL & RESET
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	background-color: #0d1337;
+	font-family: "Poppins", sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+.btn {
+	padding: 16px 40px;
+	font-weight: bold;
+	border: none;
+	cursor: pointer;
+	font-family: "Poppins", sans-serif;
+}
+.container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+// NAVBAR SECTION
+
+.navbar {
+	height: 120px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+	&_wrapper {
+		display: flex;
+		align-items: center;
+		gap: 40px;
+
+		&_lists {
+			display: flex;
+			align-items: center;
+			gap: 40px;
+
+			li {
+				a {
+					font-size: 14px;
+					color: #8e919a;
+				}
+				a:hover {
+					color: #fff;
+				}
+			}
+		}
+		.btn_navbar {
+			color: #0d1337;
+		}
+		.btn_navbar:hover {
+			background-color: rgba(255, 255, 255, 0.65);
+		}
+	}
+	&_menuIcon {
+		width: 50px;
+		height: 50px;
+		filter: invert(1);
+		cursor: pointer;
+		display: none;
+	}
+
+	@media screen and (max-width: 600px) {
+		.navbar {
+			&_wrapper {
+				display: none;
+			}
+			&_menuIcon {
+				display: block;
+			}
+		}
+	}
+}
+//HERO SECTION
+
+.hero {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+
+	&_tittle {
+		font-family: "Roboto", sans-serif;
+		font-size: 48px;
+		font-weight: bold;
+		line-height: 70px;
+		text-align: center;
+		text-transform: capitalize;
+		margin-bottom: 50px;
+	}
+
+	&_desc {
+		text-align: center;
+		text-transform: capitalize;
+		margin-bottom: 36px;
+		font-family: "Roboto", sans-serif;
+	}
+	&_btn_wrapper {
+		display: flex;
+		align-items: center;
+		gap: 30px;
+
+		.btn_hero_white {
+			padding: 16px 87px;
+			color: #0d1337;
+		}
+		.btn_hero_white:hover {
+			background-color: rgba(255, 255, 255, 0.65);
+		}
+		.btn_hero_outline {
+			padding: 16px 102px;
+			background-color: transparent;
+			border: 2px solid #fff;
+			color: #fff;
+		}
+		.btn_hero_outline:hover {
+			background-color: rgba(255, 255, 255, 0.8);
+			color: #0d1337;
+		}
+	}
+}
