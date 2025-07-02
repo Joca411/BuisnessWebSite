@@ -85,7 +85,7 @@ a {
 }
 //HERO SECTION
 
-.hero {
+.header {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -113,20 +113,20 @@ a {
 		align-items: center;
 		gap: 30px;
 
-		.btn_hero_white {
+		.btn_header_white {
 			padding: 16px 87px;
 			color: #0d1337;
 		}
-		.btn_hero_white:hover {
+		.btn_header_white:hover {
 			background-color: rgba(255, 255, 255, 0.65);
 		}
-		.btn_hero_outline {
+		.btn_header_outline {
 			padding: 16px 102px;
 			background-color: transparent;
 			border: 2px solid #fff;
 			color: #fff;
 		}
-		.btn_hero_outline:hover {
+		.btn_header_outline:hover {
 			background-color: rgba(255, 255, 255, 0.8);
 			color: #0d1337;
 		}

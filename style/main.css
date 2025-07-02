@@ -76,14 +76,14 @@ a {
   }
 }
 
-.hero {
+.header {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: #fff;
 }
-.hero_tittle {
+.header_tittle {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: bold;
@@ -92,31 +92,31 @@ a {
   text-transform: capitalize;
   margin-bottom: 50px;
 }
-.hero_desc {
+.header_desc {
   text-align: center;
   text-transform: capitalize;
   margin-bottom: 36px;
   font-family: "Roboto", sans-serif;
 }
-.hero_btn_wrapper {
+.header_btn_wrapper {
   display: flex;
   align-items: center;
   gap: 30px;
 }
-.hero_btn_wrapper .btn_hero_white {
+.header_btn_wrapper .btn_header_white {
   padding: 16px 87px;
   color: #0d1337;
 }
-.hero_btn_wrapper .btn_hero_white:hover {
+.header_btn_wrapper .btn_header_white:hover {
   background-color: rgba(255, 255, 255, 0.65);
 }
-.hero_btn_wrapper .btn_hero_outline {
+.header_btn_wrapper .btn_header_outline {
   padding: 16px 102px;
   background-color: transparent;
   border: 2px solid #fff;
   color: #fff;
 }
-.hero_btn_wrapper .btn_hero_outline:hover {
+.header_btn_wrapper .btn_header_outline:hover {
   background-color: rgba(255, 255, 255, 0.8);
   color: #0d1337;
 }/*# sourceMappingURL=main.css.map */
