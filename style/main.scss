@@ -144,7 +144,7 @@ a {
 // HERO SECTION
 
 .hero {
-	margin: 100px auto;
+	margin: 140px auto;
 	&_header {
 		display: flex;
 		align-items: center;
@@ -224,5 +224,106 @@ a {
 				color: #fff;
 			}
 		}
+
+		// 	.hero_card:hover {
+		// 		background-color: rgba(255, 255, 255, 0.65);
+		// 		color: #000;
+		// 	}
+		// }
+	}
+}
+
+// ABOUT SECTION
+
+.about {
+	&_wripper {
+		display: flex;
+		gap: 30px;
+		margin-bottom: 140px;
+	}
+
+	&_left {
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 16px;
+
+		span {
+			color: #ff6f29;
+			font-family: "Roboto", sans-serif;
+			font-size: 24px;
+			font-weight: bold;
+			line-height: 40px;
+		}
+	}
+	&_tittle {
+		color: #fff;
+		text-transform: capitalize;
+		font-size: 42px;
+		font-family: "Roboto", sans-serif;
+		font-weight: bold;
+		line-height: 58px;
+	}
+	&_desc {
+		color: #fff;
+		font-family: "Roboto", sans-serif;
+		font-size: 16px;
+		line-height: 32px;
+	}
+
+	.btn_about {
+		width: 25%;
+		margin-top: 24px;
+	}
+	.btn_about:hover {
+		background-color: rgba(255, 255, 255, 0.65);
+	}
+	img {
+		width: 50%;
+	}
+}
+
+// PROMO SECTION
+
+.promo {
+	&_wripper {
+		display: flex;
+		flex-direction: row-reverse;
+		gap: 30px;
+		margin-bottom: 140px;
+	}
+	&_right {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 50%;
+		gap: 16px;
+
+		.btn_promo {
+			width: 25%;
+			margin-top: 24px;
+		}
+		.btn_promo:hover {
+			background-color: rgba(255, 255, 255, 0.65);
+		}
+	}
+	&_tittle {
+		color: #fff;
+		font-size: 42px;
+		text-transform: capitalize;
+		font-family: "Roboto", sans-serif;
+		line-height: 58px;
+		font-weight: bold;
+	}
+
+	&_desc {
+		color: #fff;
+		font-size: 16px;
+		line-height: 32px;
+		font-family: "Roboto", sans-serif;
+	}
+	img {
+		width: 50%;
 	}
 }

@@ -127,7 +127,7 @@ a {
 }
 
 .hero {
-  margin: 100px auto;
+  margin: 140px auto;
 }
 .hero_header {
   display: flex;
@@ -199,4 +199,86 @@ a {
 }
 .hero_content .hero_card_desc {
   color: #fff;
+}
+
+.about_wripper {
+  display: flex;
+  gap: 30px;
+  margin-bottom: 140px;
+}
+.about_left {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+.about_left span {
+  color: #ff6f29;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.about_tittle {
+  color: #fff;
+  text-transform: capitalize;
+  font-size: 42px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  line-height: 58px;
+}
+.about_desc {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 32px;
+}
+.about .btn_about {
+  width: 25%;
+  margin-top: 24px;
+}
+.about .btn_about:hover {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+.about img {
+  width: 50%;
+}
+
+.promo_wripper {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 30px;
+  margin-bottom: 140px;
+}
+.promo_right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  gap: 16px;
+}
+.promo_right .btn_promo {
+  width: 25%;
+  margin-top: 24px;
+}
+.promo_right .btn_promo:hover {
+  background-color: rgba(255, 255, 255, 0.65);
+}
+.promo_tittle {
+  color: #fff;
+  font-size: 42px;
+  text-transform: capitalize;
+  font-family: "Roboto", sans-serif;
+  line-height: 58px;
+  font-weight: bold;
+}
+.promo_desc {
+  color: #fff;
+  font-size: 16px;
+  line-height: 32px;
+  font-family: "Roboto", sans-serif;
+}
+.promo img {
+  width: 50%;
 }/*# sourceMappingURL=main.css.map */
