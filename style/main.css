@@ -124,4 +124,79 @@ a {
   .header_btn .btn_outline {
     padding: 16px 50px;
   }
+}
+
+.hero {
+  margin: 100px auto;
+}
+.hero_header {
+  display: flex;
+  align-items: center;
+}
+.hero_header_left {
+  width: 50%;
+  margin-bottom: 40px;
+}
+.hero_header_left span {
+  color: #ff6f29;
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 40px;
+}
+.hero_header_left h2 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 42px;
+  line-height: 58px;
+}
+.hero_header p {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  width: 50%;
+  font-size: 16px;
+  line-height: 32px;
+}
+.hero_content {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+.hero_content_wrapper {
+  display: flex;
+  gap: 30px;
+}
+.hero_content .hero_card {
+  padding: 32px;
+  border: 1px solid #fff;
+  border-radius: 15px;
+  width: 100%;
+}
+.hero_content .hero_card .circle {
+  width: 64px;
+  height: 64px;
+  background-color: #808080;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.hero_content .hero_card .colorTwo {
+  background-color: #00b4d8;
+}
+.hero_content .hero_card .colorTree {
+  background-color: #7400b8;
+}
+.hero_content .hero_card .colorFour {
+  background-color: #ff4d6d;
+}
+.hero_content .hero_card_tittle {
+  color: #fff;
+  margin: 32px 0 23px 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+.hero_content .hero_card_desc {
+  color: #fff;
 }/*# sourceMappingURL=main.css.map */
