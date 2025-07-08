@@ -202,6 +202,10 @@ a {
 				justify-content: center;
 				align-items: center;
 			}
+
+			.colorOne {
+				background-color: #ff6f29;
+			}
 			.colorTwo {
 				background-color: #00b4d8;
 			}
@@ -224,12 +228,14 @@ a {
 				color: #fff;
 			}
 		}
+		.hero_card:hover {
+			background-color: #fff;
 
-		// 	.hero_card:hover {
-		// 		background-color: rgba(255, 255, 255, 0.65);
-		// 		color: #000;
-		// 	}
-		// }
+			.hero_card_tittle,
+			.hero_card_desc {
+				color: #0d1337;
+			}
+		}
 	}
 }
 
@@ -273,7 +279,7 @@ a {
 	}
 
 	.btn_about {
-		width: 25%;
+		width: 30%;
 		margin-top: 24px;
 	}
 	.btn_about:hover {
@@ -301,7 +307,7 @@ a {
 		gap: 16px;
 
 		.btn_promo {
-			width: 25%;
+			width: 30%;
 			margin-top: 24px;
 		}
 		.btn_promo:hover {
